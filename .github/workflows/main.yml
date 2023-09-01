@@ -22,6 +22,6 @@ jobs:
         
     - name: Run Python script
       run: python Currency_Converter/currency_converter.py
-      working-directory: python-currency-converter/Currency_Converter  # Specify the correct working directory here
+      
 
       
