@@ -21,8 +21,8 @@ jobs:
         pip install requests
         
     - name: Run Python script
-      run: python Currency_Converter/currency_converter.py
-      working-directory: ${{ github.workspace }}
+      run: python ./Currency_Converter/currency_converter.py 1.5 USD to GBP 
+     
       
 
       
