@@ -17,11 +17,11 @@ jobs:
 
     - name: Install dependencies (if needed)
       run: | 
-        pip install  forex-python
+        pip install forex-python
         pip install requests
         
-
     - name: Run Python script
       run: python Currency_Converter/currency_converter.py
-      working-directory: Currency_Converter
+      working-directory: Currency_Converter  # Specify the correct working directory here
+
       
