@@ -13,7 +13,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v1
       with:
-        python-version: 3.3  # Specify the Python version you want to use
+        python-version: 3.x  # Specify the Python version you want to use
 
     - name: Install dependencies (if needed)
       run: | 
@@ -22,6 +22,6 @@ jobs:
         
 
     - name: Run Python script
-      run: python python-currency-converter/
-      working-directory: python-currency-converter 
+      run: python Currency_Converter/currency_converter.py
+      working-directory: Currency_Converter
       
