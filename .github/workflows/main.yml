@@ -25,7 +25,7 @@ jobs:
         for folder in */; do
           if [ -f "$Currency_Converter/currency_converter.py" ]; then
             echo "Running script in folder: $Currency_Converter"
-            python "$Currency_Converter/currency_converter.py 1.5 USD to GBP "
+            python Currency_Converter/currency_converter.py 1.5 USD to GBP 
             break  # Exit the loop once the script is found and executed
           fi
         done
