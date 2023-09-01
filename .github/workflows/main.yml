@@ -22,6 +22,7 @@ jobs:
         
     - name: Run Python script
       run: python Currency_Converter/currency_converter.py
+      working-directory: ${{ github.workspace }}
       
 
       
