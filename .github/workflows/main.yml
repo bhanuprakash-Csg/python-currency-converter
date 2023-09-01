@@ -16,7 +16,10 @@ jobs:
         python-version: 3.x  # Specify the Python version you want to use
 
     - name: Install dependencies (if needed)
-      run: pip install  
+      run: | 
+        pip install  forex-python
+        pip install requests
+        
 
     - name: Run Python script
       run: python your_script.py  
